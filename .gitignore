@@ -402,13 +402,13 @@ venv/
 
 .antlr/
 
-DSL.interp
-DSL.tokens
-DSLLexer.interp
-DSLLexer.tokens
-DSLParser.interp
-DSLParser.tokens
-DSLParser.py
-DSLLexer.py
-DSLListener.py
+MLLang.interp
+MLLang.tokens
+MLLangLexer.interp
+MLLangLexer.tokens
+MLLangParser.interp
+MLLangParser.py
+MLLangLexer.py
+MLLangListener.py
+MLLangVisitor.py
 python.gram
