@@ -396,3 +396,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#venv
+venv/
+
+.antlr/
+
+DSL.interp
+DSL.tokens
+DSLLexer.interp
+DSLLexer.tokens
+DSLParser.interp
+DSLParser.tokens
+DSLParser.py
+DSLLexer.py
+DSLListener.py
+python.gram
