@@ -1,44 +1,5 @@
-// Operaciones aritméticas avanzadas
-(3 + 5) * (10 / 2)
-5 % 2
-2 ^ 3
-sin(3.1415 / 2)
-log(100)
-
-// Operaciones de matrices
+3 + 5
+10 - 4
 matrix A = matrix(1, 2, 3, 4)
-matrix B = matrix(5, 6, 7, 8)
-A + B
-A * B
-A.transpose()
-B.inverse()
-
-// Condicionales y ciclos
-if 3 > 2 then
-    3 + 3
-else
-    2 + 2
-
-for (i = 1 to 5)
-    i * 2
-
-while 5 > 2 do
-    5 - 1
-
-// Funciones
-def square(x) {
-    x * x
-}
-square(5)
-
-// Manejo de archivos
-write("output.txt", 3 + 5)
-read("output.txt")
-
-// Graficar datos
-plot([1, 2, 3, 4, 5])
-
-// Algoritmos de Machine Learning
-regression([1, 2, 3], [4, 5, 6])
-perceptron([1, 0, 1], [0, 1, 0])
-clustering([1, 2, 3, 4, 5])
+A.transpose
+write("output.txt", 42)

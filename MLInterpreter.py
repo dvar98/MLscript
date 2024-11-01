@@ -69,7 +69,10 @@ class MLInterpreter(MLLangVisitor):
 
     def visitVariable(self, ctx):
         variable_name = ctx.ID().getText()
-        return self.variables.get(variable_name, 0)
+        if variable_name not in self.variables:
+            raise ValueError(f"Variable '{variable_name}' no definida.")
+        return self.variables[variable_name]
+
 
     def visitMatrixDeclaration(self, ctx):
         matrix_name = ctx.ID().getText()
