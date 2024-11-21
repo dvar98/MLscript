@@ -56,7 +56,7 @@ tokens {
     INDENT, DEDENT
 }
 
-NEWLINE: [\r\n]+ -> skip, { handleNewLine() };
+NEWLINE: [\r\n]+ -> skip;
 
 prog:   stat+ ;
 
